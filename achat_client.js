@@ -7,5 +7,17 @@ prix_unitaire_stylo = 500
 quantité_stylo = 3 ;
 let montant_des_cahiers = prix_unitaire_cahier * quantité_cahier ;
 let montant_des_stylos =prix_unitaire_stylo * quantité_stylo ;
-montant_total_achat =  montant_des_cahiers + montant_des_stylos ;S
+montant_total_achat =  montant_des_cahiers + montant_des_stylos ;
 
+// Affichage des résultats 
+
+console.log("==== CAISSE ====");
+console.log("Cahiers :", montant_des_cahiers, "FCFA");
+console.log("Stylos :", montant_des_stylos, "FCFA");
+console.log("Total :", montant_total_achat, "FCFA");
+console.log("Budget :", budget_client, "FCFA");
+if (montant_total_achat <= budget_client) {
+    console.log("Budget suffisant")
+} else {
+    console.log("Budget insuffisant")
+}
