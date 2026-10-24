@@ -17,7 +17,13 @@ console.log("Stylos :", montant_des_stylos, "FCFA");
 console.log("Total :", montant_total_achat, "FCFA");
 console.log("Budget :", budget_client, "FCFA");
 if (montant_total_achat <= budget_client) {
-    console.log("Budget suffisant")
+    console.log("Budget suffisant");
 } else {
-    console.log("Budget insuffisant")
+    console.log("Budget insuffisant");
+}
+console.log("")
+//Affichage des nombres de 1 à 5 avec le message : Achat numéro 
+
+for (let i=1;i<=5;i++) {
+    console.log("Achat numéro", i);
 }
