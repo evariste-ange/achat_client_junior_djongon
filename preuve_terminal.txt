@@ -1,0 +1,199 @@
+PS C:\Users\DELL\achat_client_junior_djongon> git init
+Reinitialized existing Git repository in C:/Users/DELL/achat_client_junior_djongon/.git/
+PS C:\Users\DELL\achat_client_junior_djongon> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\DELL\achat_client_junior_djongon> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   achat_client.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\DELL\achat_client_junior_djongon> git add achat_client.js
+PS C:\Users\DELL\achat_client_junior_djongon> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   achat_client.js
+
+PS C:\Users\DELL\achat_client_junior_djongon> git commit -m "enregistrement de toutes les variables"
+[main ae2cb80] enregistrement de toutes les variables
+ 1 file changed, 10 insertions(+)
+PS C:\Users\DELL\achat_client_junior_djongon> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 469 bytes | 469.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/evariste-ange/achat_client_junior_djongon.git
+   5343635..ae2cb80  main -> main
+PS C:\Users\DELL\achat_client_junior_djongon> node achat_client.js
+==== CAISSE ====
+Cahiers : 6000 FCFA
+Stylos : 1500 FCFA
+Total : 7500 FCFA
+Budget : 20000 FCFA
+Budget suffisant
+PS C:\Users\DELL\achat_client_junior_djongon> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   achat_client.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\DELL\achat_client_junior_djongon> git add achat_client.js
+PS C:\Users\DELL\achat_client_junior_djongon> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   achat_client.js
+
+PS C:\Users\DELL\achat_client_junior_djongon> git commit -m "Affichage des résultats et vérification du budget"
+[main 35c0296] Affichage des résultats et vérification du budget
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+PS C:\Users\DELL\achat_client_junior_djongon> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 610 bytes | 610.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/evariste-ange/achat_client_junior_djongon.git
+   ae2cb80..35c0296  main -> main
+PS C:\Users\DELL\achat_client_junior_djongon> node achat_client.js
+==== CAISSE ====
+Cahiers : 6000 FCFA
+Stylos : 1500 FCFA
+Total : 7500 FCFA
+Budget : 20000 FCFA
+Budget suffisant
+Achat numéro 1
+Achat numéro 2
+Achat numéro 3
+Achat numéro 4
+Achat numéro 5
+PS C:\Users\DELL\achat_client_junior_djongon> node achat_client.js
+==== CAISSE ====
+Cahiers : 6000 FCFA
+Stylos : 1500 FCFA
+Total : 7500 FCFA
+Budget : 20000 FCFA
+Budget suffisant
+Achat numéro 1
+Achat numéro 2
+Achat numéro 3
+Achat numéro 4
+Achat numéro 5
+PS C:\Users\DELL\achat_client_junior_djongon> node achat_client.js
+==== CAISSE ====
+Cahiers : 6000 FCFA
+Stylos : 1500 FCFA
+Total : 7500 FCFA
+Budget : 20000 FCFA
+Budget suffisant
+
+Achat numéro 1
+Achat numéro 2
+Achat numéro 3
+Achat numéro 4
+Achat numéro 5
+PS C:\Users\DELL\achat_client_junior_djongon> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   achat_client.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\DELL\achat_client_junior_djongon> git add achat_client.js
+PS C:\Users\DELL\achat_client_junior_djongon> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   achat_client.js
+
+PS C:\Users\DELL\achat_client_junior_djongon> git commit -m "Affichage des nombres de 1 à 5 avec le message : Achat numéro avec la boucle for"
+[main 7b4c022] Affichage des nombres de 1 à 5 avec le message : Achat numéro avec la boucle for
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+PS C:\Users\DELL\achat_client_junior_djongon> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 497 bytes | 497.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/evariste-ange/achat_client_junior_djongon.git
+   35c0296..7b4c022  main -> main
+PS C:\Users\DELL\achat_client_junior_djongon> node achat_client.js
+==== CAISSE ====
+Cahiers : 21000 FCFA
+Stylos : 2500 FCFA
+Total : 23500 FCFA
+Budget : 20000 FCFA
+Budget insuffisant
+
+Achat numéro 1
+Achat numéro 2
+Achat numéro 3
+Achat numéro 4
+Achat numéro 5
+PS C:\Users\DELL\achat_client_junior_djongon> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   achat_client.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\DELL\achat_client_junior_djongon> git add achat_client.js
+PS C:\Users\DELL\achat_client_junior_djongon> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   achat_client.js
+
+PS C:\Users\DELL\achat_client_junior_djongon> git commit -m "modification des quantités pour que le montant total d'achat dépasse le budget et vérification du message"               
+[main 4497c1d] modification des quantités pour que le montant total d'achat dépasse le budget et vérification du message
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+PS C:\Users\DELL\achat_client_junior_djongon> git push
+fatal: unable to access 'https://github.com/evariste-ange/achat_client_junior_djongon.git/': Could not resolve host: github.com
+PS C:\Users\DELL\achat_client_junior_djongon> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\DELL\achat_client_junior_djongon> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 389 bytes | 389.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/evariste-ange/achat_client_junior_djongon.git
+   7b4c022..4497c1d  main -> main
+PS C:\Users\DELL\achat_client_junior_djongon> 
